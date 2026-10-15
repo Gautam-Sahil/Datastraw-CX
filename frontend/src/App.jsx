@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import './App.css';
 import Auth from './Auth';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://datastraw-cx.onrender.com/api';
 
 const Icon = {
   Terminal: () => (

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { User, Lock, Mail, ArrowLeft, Loader2, ShieldCheck, Eye, EyeOff, Sparkles } from "lucide-react";
 import "./auth.css";
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://datastraw-cx.onrender.com/api';
 
 export default function Auth({ onLoginSuccess }) {
   const [isRegisterMode, setIsRegisterMode] = useState(false);
